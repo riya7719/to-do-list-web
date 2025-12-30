@@ -7,11 +7,11 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [todos, setTodos] = useState([
+ /* const [todos, setTodos] = useState([
     { sno: 1, title: "Go to the market", desc: "you need to go to the market" },
     { sno: 2, title: "Go to the mall", desc: "you need to go to the mall" },
     { sno: 3, title: "Go to the ghaat", desc: "you need to go to the ghaat" },
-  ]);
+  ]);*/
 
   const onDelete = (todo) => {
     setTodos(todos.filter((e) => e !== todo));
